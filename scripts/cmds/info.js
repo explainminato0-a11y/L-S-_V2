@@ -89,7 +89,7 @@ async function drawPage1(ctx) {
   ctx.fillStyle = "#ff99cc";
   ctx.shadowColor = "#ff33aa";
   ctx.shadowBlur = 25;
-  ctx.fillText("Habibur Rahman Saim", W / 2, 295); // slightly lower
+  ctx.fillText("Rifat Ahmed", W / 2, 295); // slightly lower
 
   ctx.font = "italic 20px Arial";
   ctx.fillStyle = "#ff66cc";
@@ -113,9 +113,9 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: Saim", "Age: 14+", "DOB: 15 March 2012",
+    "Nickname: Zefox", "Age: 18+", "DOB: 11 December  2007",
     "Gender: Male", "Religion: Islam", "Nationality: Bangladeshi",
-    "Location: Dhaka,Islampur", "Class: Seven",
+    "Location: Dhaka,Gazipur ", "Class: 10",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
   ];
   let y = 400;
@@ -137,7 +137,7 @@ module.exports = {
     name: "info",
     aliases: ["in4", "ownerinfo"],
     version: "1.0",
-    author: "Saimx69x",
+    author: "Zefox",
     countDown: 5,
     role: 0,
     shortDescription: "Owner info",
