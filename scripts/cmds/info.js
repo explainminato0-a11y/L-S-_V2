@@ -4,8 +4,8 @@ const fs = require("fs");
 const path = require("path");
 
 const W = 490, H = 840;
-const AVATAR1 = "https://i.imgur.com/5L1We9h.jpeg";
-const FALLBACK_AVATAR = "https://i.ibb.co/MC6bT5V/default-avatar.png"; // fallback if error
+const AVATAR1 = "https://i.NN";
+const FALLBACK_AVATAR = "https://i.ibb.co/.."; // fallback if error
 
 function formatUptime(ms) {
   const totalSeconds = Math.floor(ms / 1000);
@@ -89,7 +89,7 @@ async function drawPage1(ctx) {
   ctx.fillStyle = "#ff99cc";
   ctx.shadowColor = "#ff33aa";
   ctx.shadowBlur = 25;
-  ctx.fillText("Rifat Ahmed", W / 2, 295); // slightly lower
+  ctx.fillText("RAKIB", W / 2, 295); // slightly lower
 
   ctx.font = "italic 20px Arial";
   ctx.fillStyle = "#ff66cc";
@@ -113,9 +113,9 @@ async function drawPage1(ctx) {
   ctx.shadowBlur = 12;
 
   const lines = [
-    "Nickname: Zefox", "Age: 18+", "DOB: 11 December  2007",
+    "Nickname: RAKIB", "Age: SECRET", "DOB: DD/MM/YYYY",
     "Gender: Male", "Religion: Islam", "Nationality: Bangladeshi",
-    "Location: Dhaka,Gazipur ", "Class: 10",
+    "Location: SAIDPUR, NILPHAMARY ", "Class: 00🐸",
     `Time: ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Dhaka" })}`
   ];
   let y = 400;
@@ -137,7 +137,7 @@ module.exports = {
     name: "info",
     aliases: ["in4", "ownerinfo"],
     version: "1.0",
-    author: "Zefox",
+    author: "RAKIB",
     countDown: 5,
     role: 0,
     shortDescription: "Owner info",
